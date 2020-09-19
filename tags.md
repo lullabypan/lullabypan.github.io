@@ -5,16 +5,21 @@ description: "根据标签查看"
 header-img: "img/semantic.jpg"  
 ---
 
-
+# 所有标签
+--------------------
 <div id='tag_cloud'>
 {% for tag in site.tags %}
  <a style="color:blue" href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 {% endfor %}
 </div>
 
+# 分类查看
+--------------------
 <ul class="listing">
 {% for tag in site.tags %}
   <b class="listing-seperator" id="{{ tag[0] }}">#{{ tag[0] }}</b>
+
+ 
 {% for post in tag[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
