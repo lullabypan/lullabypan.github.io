@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 这是一篇博客文章模板
+title: 威胁情报标准学习笔记
 date: 2015-3-02
 categories: blog
-tags: [标签一,标签二]
+tags: [威胁情报,信息安全,STIX,]
 description: 文章金句。
 ---
 
