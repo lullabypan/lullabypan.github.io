@@ -9,11 +9,11 @@ header-img: "img/semantic.jpg"
 --------------------
 <div id='tag_cloud'>
 {% for tag in site.tags %}
- <a style="color:black" href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+ <u style="color:black" href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}  </u>
 {% endfor %}
 </div>
 
-### 分类查看
+### 详细
 --------------------
 <ul class="listing">
 {% for tag in site.tags %}
