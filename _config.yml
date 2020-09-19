@@ -1,8 +1,8 @@
 # Site settings
-title: 第一篇博客 # 你的博客名字，可以定义修订
+title: 狐狸角 # 你的博客名字，可以定义修订
 header-img: "img/green.jpg"
 tagline: "cn"  
-description: "这是我的第一篇博客"  # 一句话描述你的博客
+description: "曾经看过一本书，里面有一个地方叫狐狸角，那是一个很舒适的地方"  # 一句话描述你的博客
 baseurl: ""
 url: "https://lullabypan.github.io/"  # 此处填写你的博客地址 
 
