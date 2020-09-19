@@ -9,7 +9,7 @@ header-img: "img/semantic.jpg"
 --------------------
 <div id='tag_cloud'>
 {% for tag in site.tags %}
- <a style="color:#000000" href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><img src="/img/标签.png" />{{ tag[0] }}&nbsp;&nbsp;</a>
+ <a style="color:#000000" href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><img src="/img/标签.png" width=5px height=5px/>{{ tag[0] }}&nbsp;&nbsp;</a>
 {% endfor %}
 </div>
 
